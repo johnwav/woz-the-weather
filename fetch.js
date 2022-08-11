@@ -11,7 +11,7 @@ let weather = {
         .then((response) => response.json())
         .then((data) => console.log(data))
     },
-
+//unfinished
     displayWeather: function(data){
 
     }

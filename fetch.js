@@ -19,6 +19,8 @@ let weather = {
         const { speed } = data.wind;
         console.log(name,icon,description,temp,humidity,speed);
     }
+
+    
 };
 
 

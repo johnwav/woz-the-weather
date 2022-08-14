@@ -13,22 +13,27 @@
 </head>
 <body class="bg-lime-200 flex justify-center items-center h-screen m-0">
     <div class="card-container bg-lime-100 p-8 w-full max-w-md rounded-3xl m-4">
-        <div class="search flex items-center justify-center">
-            <input type="text" class="searchbar border-none outline-none rounded-3xl bg-lime-50 text-white text-xl px-1 py-2 h-12 w-3/4">
+        <!-- <div class="search flex items-center justify-center">
+            <input type="text" class="searchbar border-none outline-none rounded-3xl bg-lime-50 text-black text-xl px-1 py-2 h-12 w-3/4">
             <button class="rounded-2xl">
                 <div class="box-content h-6 w-6">
                     <img src="/assets/search.png" alt="" >
                 </div>
                 
             </button>
-        </div>
+        </div> -->
+
         <div class="weather font-poppings">
-            <h2 class="city font-extrabold text-7xl text-left pt-10 pb-6">Weather in Lagos</h2>
-            <h1 class="temp font-bold text-5xl py-5">41°C</h1>
+            <h2 class="cit font-extrabold text-7xl text-left pt-10 pb-6">Weather in <div class="city"></div></h2>
+            <h1 class="font-bold text-5xl py-5 flex">
+                <div class="temp"></div>
+                °C</h1>
+            <div class="description py-3 text-xl font-bold"></div>
             <img alt="" class="icon">
-            <div class="description py-3">Cloudy</div>
-            <div class="humidity py-3">Humidity: 40%</div>
-            <div class="wind py-3">Wind speed: 6.2km/h</div>
+            <div class="py-3 text-xl font bold flex gap-40"><div class="humidity"></div></div>
+            <div class="py-3 text-xl font bold flex"> 
+                <div class="windspeed"></div>
+            </div>
 
         </div>
     </div>

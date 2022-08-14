@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WoztheWeather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/public/css/tailwind.css">
+    <script src="fetch.js"></script>
+</head>
+<body class="bg-lime-200 flex justify-center items-center h-screen m-0">
+    <div class="card-container bg-lime-100 p-8 w-full max-w-md rounded-3xl m-4">
+        <div class="search flex items-center justify-center">
+            <input type="text" class="searchbar border-none outline-none rounded-3xl bg-lime-50 text-white text-xl px-1 py-2 h-12 w-3/4">
+            <button class="rounded-2xl">
+                <div class="box-content h-6 w-6">
+                    <img src="/assets/search.png" alt="" >
+                </div>
+                
+            </button>
+        </div>
+        <div class="weather font-poppings">
+            <h2 class="city font-extrabold text-7xl text-left pt-10 pb-6">Weather in Lagos</h2>
+            <h1 class="temp font-bold text-5xl py-5">41°C</h1>
+            <img src="" alt="" class="icon">
+            <div class="description py-3">Cloudy</div>
+            <div class="humidity py-3">Humidity: 40%</div>
+            <div class="wind py-3">Wind speed: 6.2km/h</div>
+
+        </div>
+    </div>
+</body>
+</html>

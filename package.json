@@ -2,9 +2,9 @@
   "name": "woz-the-weather",
   "version": "1.0.0",
   "description": "",
-  "main": "",
   "scripts": {
-    "dev": "npx tailwindcss -i ./public/css/style.css -o ./public/css/tailwind.css --watch"
+    "start": "parcel ./src/index.html && tailwindcss -i ./css/style.css -o ./css/tailwind.css --watch",
+    "dev": "tailwindcss -i ./public/css/style.css -o ./public/css/tailwind.css --watch"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/johnwav/woz-the-weather/issues"
   },
-  "homepage": "https://github.com/johnwav/woz-the-weather#readme"
+  "homepage": "https://github.com/johnwav/woz-the-weather#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "os-browserify": "^0.3.0",
+    "parcel": "^2.7.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10"
+  }
 }

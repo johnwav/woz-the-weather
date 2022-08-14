@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "parcel ./src/index.html && tailwindcss -i ./css/style.css -o ./css/tailwind.css --watch",
-    "dev": "tailwindcss -i ./public/css/style.css -o ./public/css/tailwind.css --watch",
-    "build": "parcel ./src/index.html && tailwindcss -i ./css/style.css -o ./css/tailwind.css --watch"
+    "parcelStart": "parcel ./src/index.html && tailwindcss -i ./css/style.css -o ./css/tailwind.css --watch",
+    "parcelDev": "tailwindcss -i ./public/css/style.css -o ./public/css/tailwind.css --watch",
+    "parcelBuild": "parcel ./src/index.html && tailwindcss -i ./css/style.css -o ./css/tailwind.css --watch"
   },
   "repository": {
     "type": "git",
